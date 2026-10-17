@@ -2,11 +2,11 @@
 
 | Item | Detail |
 |---|---|
-| Program | AI & Data Science, Data Scientist track (IBM / DEPI) |
+| Program | AI & Data Science, Data Scientist track ( DEPI) |
 | Team size | 6 members |
-| Project start | 17 Oct 2026 |
+| Project start | 2 Oct 2026 |
 | Final delivery | 4 Dec 2026 |
-| Repository | `churn-intelligence-platform` (GitHub) |
+| Repository | `Customer_Churn_Intelligence_And_Retention_System` (GitHub) |
 
 ---
 
@@ -69,12 +69,10 @@ gantt
 
 | ID | Milestone | Date | Exit criteria |
 |---|---|---|---|
-| M1 | Planning, Literature Review, Requirements | 20 Oct 2026 | All documents in `docs/01-planning`, `docs/02-literature`, `docs/03-requirements` and pushed to GitHub |
+| M1 | Planning, Literature Review, Requirements | 16 Oct 2026 | All documents in `docs/01-planning`, `docs/02-literature`, `docs/03-requirements` and pushed to GitHub |
 | M2 | System Analysis & Design | 6 Nov 2026 | All UML, ERD, DFD, architecture, wireframes and deployment diagrams in `docs/04-design` |
 | M3 | Implementation | 30 Nov 2026 | Database, ML pipeline, MLflow, API, Docker, CI and dashboard working from the README instructions |
 | M4 | Final Presentation, Testing, Reports | 4 Dec 2026 | Test report, user manual, technical documentation, business report and slides delivered |
-
-> Note: M1 was due 16 Oct 2026. The 20 Oct date assumes late submission is accepted by the lecturer.
 
 ---
 
@@ -98,36 +96,36 @@ gantt
 
 | Member | Role | Main responsibility |
 |---|---|---|
-| عبدالله | Data Engineer | Database, SQL scripts, synthetic data, data dictionary |
-| مريم | Data Analyst | Cleaning, EDA, feature engineering, literature review |
-| محمد | ML Engineer | Model training, comparison, evaluation and selection |
-| مصطفى | MLOps Engineer | MLflow, FastAPI, Docker, GitHub Actions, deployment |
-| بسمله | Dashboard / Frontend | Plotly Dash dashboard, wireframes, UI/UX, user manual |
-| بثينه | Business Analyst | Business problem, KPIs, stakeholders, recommendations, final report |
+| Abdullah | Data Engineer | Database, SQL scripts, synthetic data, data dictionary |
+| Mariam | Data Analyst | Cleaning, EDA, feature engineering, literature review |
+| Mohamed | ML Engineer | Model training, comparison, evaluation and selection |
+| Mostafa | MLOps Engineer | MLflow, FastAPI, Docker, GitHub Actions, deployment |
+| Basmala | Dashboard / Frontend | Plotly Dash dashboard, wireframes, UI/UX, user manual |
+| Bothina | Business Analyst | Business problem, KPIs, stakeholders, recommendations, final report |
 
 ### 4.2 Workload by Phase (primary owner and support)
 
 | Phase | Primary | Support |
 |---|---|---|
-| Planning | بثينه | All members |
-| Requirements | بثينه | محمد, مريم |
-| Design: data | عبدالله | مريم |
-| Design: architecture | مصطفى | محمد |
-| Design: UML | محمد | بثينه |
-| Design: UI | بسمله | بثينه |
-| Data layer | عبدالله, مريم | محمد |
-| Machine learning | محمد | مريم |
-| MLOps and serving | مصطفى | محمد |
-| Dashboard | بسمله | بثينه |
-| Testing | مصطفى | All members |
-| Final report and presentation | بثينه | All members |
+| Planning | Bothina | All members |
+| Requirements | Bothina | Mohamed, Mariam |
+| Design: data | Abdullah | Mariam |
+| Design: architecture | Mostafa | Mohamed |
+| Design: UML | Mohamed | Bothina |
+| Design: UI | Basmala | Bothina |
+| Data layer | Abdullah, Mariam | Mohamed |
+| Machine learning | Mohamed | Mariam |
+| MLOps and serving | Mostafa | Mohamed |
+| Dashboard | Basmala | Bothina |
+| Testing | Mostafa | All members |
+| Final report and presentation | Bothina | All members |
 
 ### 4.3 Tools and Technology
 
 | Area | Tools |
 |---|---|
 | Language | Python 3.11 |
-| Data | SQLite or PostgreSQL, Pandas, NumPy |
+| Data |PostgreSQL, Pandas, NumPy |
 | Visualization | Matplotlib, Seaborn, Plotly, Dash |
 | Machine learning | scikit-learn |
 | MLOps | MLflow, FastAPI, Docker, GitHub Actions |
